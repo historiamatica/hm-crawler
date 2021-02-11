@@ -3,5 +3,10 @@
         "nom":"Digital Humanities Obdurodon",
         "url":"http://dh.obdurodon.org/projects.xhtml",
         "selecteur":"body > dl > a"
+    },
+    {
+        "nom":"",
+        "url":"",
+        "selecteur":""
     }
 ]
