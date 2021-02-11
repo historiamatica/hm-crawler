@@ -1,0 +1,14 @@
+[
+    {
+        "titre":"L'Histoire nous le dira",
+        "id":{
+            "type":"channel",
+            "code":"UCN4TCCaX-gqBNkrUqXdgGRA"
+        },
+        "auteur":["Laurent Turcot"],
+        "description":{
+            "officiel":"Un peu de culture générale en histoire, le tout distillé en quelques capsules pour le plaisir des yeux et des oreilles... Plus sérieusement, on parle d'histoire et on s'amuse avec ! </br> Avec Laurent Turcot, professeur en histoire à l'Université du Québec à Trois-Rivières, Canada.",
+            "hm":"L’Histoire nous le dira est la chaîne Youtube de Laurent Turcot, professeur d’histoire à l’Université du Québec à Trois-Rivières. Dans des capsules d’une dizaine de minutes, Laurent tente de construire chez le spectateur une meilleure culture historique."
+        }
+    }
+]
