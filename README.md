@@ -3,5 +3,3 @@
 
 <h2>Description</h2> 
 <p>HM Crawler est un <em>crawler</em> développé en Python afin de chercher des projets et des bibliothèques numériques pour la plateforme Historiamati.ca. Le répertoire contient à la fois le code pour le Crawler et les données recueillies. </p>
-
-Bonjour Alexis!
