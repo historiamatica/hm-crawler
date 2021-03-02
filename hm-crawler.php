@@ -17,6 +17,42 @@
         return $href;
     }
 
+    function obtenirInfo($url){
+        $hmParser = new Tentacule($url);
+        $titreTab = $hmParser->obtenirTitre();
+
+        if(sizeof($titreTab) == 0 || $titreTab->item(0) == NULL){
+            return;
+        }
+
+        $titre = $titreTab->item(0)->nodeValue;
+        $titre = str_replace("\n","",$titre);
+
+        if($titre == ""){
+            return;
+        }
+
+        $description = "";
+        $motsCles = "";
+        $auteurs = "";
+
+        $metaTab = $hmParser->obtenirMeta();
+
+        foreach($metaTab as $meta){
+            if($meta->getAttribute("name") == "description"){
+                $description = $meta->getAttribute("content");
+            }
+            if($meta->getAttribute("name") == "keywords"){
+                $motsCles = $meta->getAttribute("content");
+            }
+            if($meta->getAttribute("name") == "author"){
+                $auteurs = $meta->getAttribute("content");
+            }
+        }
+
+        echo "<a href='$url'>$titre</a><p>$description / $motsCles / $auteurs</p>";
+    }
+
     function bougerTentacule($url){
         global $crawled;
         global $crawling;
@@ -37,10 +73,12 @@
             if(!in_array($href, $crawled)){
                 $crawled[] = $href;
                 $crawling[] = $href;
+
+                obtenirInfo($href);
+
             }
 
 
-            echo $href."<br>";
         }
         array_shift($crawling);
         foreach($crawling as $site){

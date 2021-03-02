@@ -13,5 +13,13 @@
         public function obtenirLiens(){
             return $this->page->getElementsByTagName("a");
         }
+
+        public function obtenirTitre(){
+            return $this->page->getElementsByTagName("title");
+        }
+
+        public function obtenirMeta(){
+            return $this->page->getElementsByTagName("meta");
+        }
     }
 ?>
