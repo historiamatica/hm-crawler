@@ -1,8 +1,25 @@
 <?php
+    include("config.php");
     include("class/Tentacule.php");
 
     $crawled = array();
     $crawling = array();
+
+    function ajouterSite($url,$titre, $description, $motsCles, $auteurs){
+        global $connexion;
+
+        $query = $connexion->prepare("INSERT INTO test(url, titre, description, motscles, auteurs) VALUES(:url, :titre, :drescription, :motsCles, :auteurs)");
+
+        $query->bindParam(":url",$url);
+        $query->bindParam(":titre",$titre);
+        $query->bindParam(":description",$description);
+        $query->bindParam(":motsCles",$motsCles);
+        $query->bindParam(":auteurs",$auteurs);
+
+
+        return $query->execute();
+
+    }
 
     function creationLien($href, $url){
         $protocole = parse_url($url)["scheme"];
@@ -50,7 +67,11 @@
             }
         }
 
-        echo "<a href='$url'>$titre</a><p>$description / $motsCles / $auteurs</p>";
+        $description = str_replace("\n", "", $description);
+        $motsCles = str_replace("\n", "", $motsCles);
+        $auteurs = str_replace("\n", "", $auteurs);
+
+        ajouterSite($url, $titre, $description, $motsCles, $auteurs);
     }
 
     function bougerTentacule($url){
