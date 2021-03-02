@@ -1,3 +1,15 @@
+<?php
+    include("config.php");
+
+    if(isset($_GET["terme"])){
+        $terme = $_GET["terme"];
+    }else{
+        echo "Erreur";
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,8 +19,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-        echo $_GET["terme"];
-    ?>    
+
 </body>
 </html>
