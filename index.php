@@ -5,26 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historiamatica</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
 </head>
 <body>
     <div id="app">
-        <nav>
         
-        </nav>
-        <main>
-            <nav></nav>
-            <section>
-               <div class="rechercheBoite">
-                    <form action="recherche.php" method="GET">
-                        <input type="text" class="recherche" placeholder="Rechercher" name="terme">
-                        <button class="rechercher">S</button>
-                    </form>
-               </div> 
-            </section>
-        </main>
     </div>
 </body>
 </html>
