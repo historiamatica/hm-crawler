@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+html{
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 66.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    color: var(--text);
+}
+
+:root {
+    --white: #f0f0f0;
+    --black: #010101;
+
+    --brey-5: #eceff1;
+    --brey-4: #cfd8dc;
+    --brey-3: #b0bec5;
+    --brey-2: #90a4ae;
+    --brey-1: #78909c;
+    --brey: #607d8b;
+    --brey1: #546e7a;
+    --brey2: #455a64 ;
+    --brey3: #37474f;
+    --brey4: #263238;
+
+    --grey-5: #fafafa ;
+    --grey-4: #f5f5f5;
+    --grey-3: #eeeeee;
+    --grey-2: #e0e0e0;
+    --grey-1: #bdbdbd;
+    --grey: #9e9e9e;
+    --grey1: #757575;
+    --grey2: #616161  ;
+    --grey3: #424242;
+    --grey4: #212121;
+
+    --error: #B00020;
+  }
+
+.primary{
+    background-color: var(--primary);
+    color: var(--primaryText);
+    text-decoration: none;
+}
+
+.secondary{
+    background-color: var(--secondary);
+}
+
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+h5{
+    font-size: 2.2rem;
+}
+
+h6{
+    font-size: 1.8rem;
+}
+
+p{
+    line-height: 1.7;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.hugeH1{
+    font-size: 6rem;
+}
+
+i{
+    font-family: 'Material Icons';
+    color: var(--secondary);
+    font-style: normal; 
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome, Edge, Opera and Firefox */
+}
+
+.i16{
+    font-size: 1.6rem;
+}
+
+.i32{
+    font-size: 3.2rem;
+}
+
+.i64{
+    font-size: 6.4rem;
+}
+
+.i128{
+    font-size: 12.8rem;
+}
+
+.i256{
+    font-size: 25.6rem;
+}
+
+.i512{
+    font-size: 51.2rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+}
