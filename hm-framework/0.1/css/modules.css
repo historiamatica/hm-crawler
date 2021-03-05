@@ -5,3 +5,12 @@
     padding: 3px 6px;
     font-size: 1.4rem;
 }
+
+.overlay{
+    background: rgba(0,0,0,0.5);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left:0;
+}
