@@ -14,7 +14,7 @@
 /*CONFIGURATION ET RESET*/
 
 :root{
-    --primary: #092834;
+    --primary: #263238;
     --secondary: #a0b9b9;
 }
 
@@ -34,6 +34,8 @@ body{
     font-size: 1.6rem;
     color: var(--text);
     width: 100vw;
+    display:flex;
+    flex-wrap: nowrap;
 }
 
 .primary{
@@ -117,4 +119,79 @@ i{
 
 .i512{
     font-size: 51.2rem;
+}
+
+.sideNav{
+    width: 90px;
+    background: var(--primary);
+    height: 100vh;
+}
+
+.topNav{
+    height: 60px;
+    width: 100%;
+    background: #f0f0f0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.604);
+    display: block;
+    text-align: right;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.topNav a{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+.moduleRecherche{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 50%;
+    height: 74px;
+    display: flex;
+    position: relative;
+}
+
+#barreRecherche{
+    flex: 0 0 100%;
+    height: 74px;
+    margin-top: -4px;
+    border:none;
+    outline: none;
+    border-radius: 9px;
+    padding-left: 40px;
+    padding-right: 76px;
+    font-size: 2.4rem;
+    box-shadow: 0 3px 7px -1px rgba(0,0,0,0.25);
+    background: #fff;
+}
+
+#btnRecherche{
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    border-radius: 9px;
+    border: none;
+    background: #263238;
+    color: #f0f0f0;
+}
+
+#btnRecherche i{
+    color: #fff;
 }
