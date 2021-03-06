@@ -11,7 +11,12 @@
 </head>
 <body>
 	<nav class="sideNav">
-
+		<a href="#" class="btnMenu"><div class="btnMenuLabel">Accueil</div><div class="btnMenuIcone"><i class="i64">home</i></div></a>
+		<a href="#" class="btnMenu"><div class="btnMenuLabel">Articles</div><div class="btnMenuIcone"><i class="i64">article</i></div></a>
+		<a href="#" class="btnMenu"><div class="btnMenuLabel">Projets</div><div class="btnMenuIcone"><i class="i64">insights</i></div></a>
+		<a href="#" class="btnMenu"><div class="btnMenuLabel">Globe</div><div class="btnMenuIcone"><i class="i64">public</i></div></a>
+		<a href="#" class="btnMenu"><div class="btnMenuLabel">Médias</div><div class="btnMenuIcone"><i class="i64">movie</i></div></a>
+		<a href="#" class="btnEnd"><div class="btnMenuLabel">Aide</div><div class="btnMenuIcone"><i class="i64">help</i></div></a>
 	</nav>
 	<main>
 		<nav class="topNav">
@@ -21,10 +26,17 @@
 			<a href="#">À propos</a>
 		</nav>
 		<section class="moduleRecherche">
+			<img src="img/logo.png" alt="logo" height="75">
 			<form action="recherche.php" method="post">
 				<input id="barreRecherche" type="text" placeholder="Recherche">
-				<button id="btnRecherche"><i class="i32">search</i></button>
+				<button id="btnRecherche"><i class="i32">search</i></button><br>
 			</form>
+			<h6 class="lblRechercheAvancee"><a href="#">Recherche avancée</a></h6>
+		</section>
+		<section class="moduleDerniersArticles">
+			<section class="wrapContent">
+
+			</section>
 		</section>
 	</main>
 
