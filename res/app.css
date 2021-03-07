@@ -158,6 +158,10 @@ main{
     font-size: 1.8rem;
 }
 
+.topNav:last-child{
+    padding-right: 30px;
+}
+
 .moduleRecherche{
     width: 100%;
     height: 400px;

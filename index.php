@@ -23,6 +23,7 @@
 			<a href="#">Services</a>
 			<a href="#">Confidentialité</a>
 			<a href="#">À propos</a>
+			<a href="#">FR</a>
 		</nav>
 		<section class="moduleRecherche">
 			<img src="img/logo.png" alt="logo" height="75">
