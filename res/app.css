@@ -286,3 +286,50 @@ form{
 .btnMenu:nth-child(5){
     background-color: #607d8b ;
 }
+
+.moduleDerniersArticles { 
+ 
+}
+
+.moduleDerniersArticles .wrapContenu { 
+
+}
+
+.moduleDerniersArticles .wrapContenu .carte { 
+    height: 370px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.moduleDerniersArticles .wrapContenu .carte .imgCartes { 
+
+}
+
+.moduleDerniersArticles .wrapContenu .carte .imgCartes img { 
+    width: 260px;
+    margin: auto;
+}   
+
+.moduleDerniersArticles .wrapContenu .carte .imgCartes .btnCarte { 
+
+}
+
+.moduleDerniersArticles .wrapContenu .carte .imgCartes .btnCarte .i32 { 
+
+}
+
+.moduleDerniersArticles .wrapContenu .carte .titreCarte { 
+
+}
+
+.moduleDerniersArticles .wrapContenu .carte .titreCarte h3 { 
+
+}
+
+.moduleDerniersArticles .wrapContenu .carte .basCarte { 
+
+}
+
+.moduleDerniersArticles .wrapContenu .carte .basCarte a { 
+
+}

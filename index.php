@@ -7,7 +7,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="res/app.css">
-
 </head>
 <body>
 	<nav class="sideNav">
@@ -34,8 +33,8 @@
 			<h6 class="lblRechercheAvancee"><a href="#">Recherche avancée</a></h6>
 		</section>
 		<section class="moduleDerniersArticles">
-			<section class="wrapContent">
-
+			<section class="wrapContenu">
+				<div class="carte"><div class="imgCartes"><img src="img/placeholder.png" alt="Placeholder"><button class="btnCarte"><i class="i32">visibility</i></button></div><div class="titreCarte"><h3>Compte rendu de Sorcières, sages-femmes et infirmières : une histoire des femmes et de la médecine</h3></div><div class="basCarte"><a href="#">Par Catherine Dumont-Lévesque</a></div></div> 
 			</section>
 		</section>
 	</main>
